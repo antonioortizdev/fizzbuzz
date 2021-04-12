@@ -6,7 +6,7 @@ A Typescript application to print 'fizz' if a given number is divisible by 3, 'b
 
 ### Requirements
 
-- Node, up from v14.
+- Node (recommended version v14 and up).
 
 To install this app first you have to clone it to a local folder.
 
