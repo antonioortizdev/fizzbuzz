@@ -44,7 +44,7 @@ docker-compose up -d
 
 Then you will be able to execute commands like:
 ```
-docker-compose exec nodejs npm start [unless_number]
+docker-compose exec nodejs npm start [until_number]
 docker-compose exec nodejs npm test
 ```
 
