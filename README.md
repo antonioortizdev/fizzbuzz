@@ -36,4 +36,16 @@ npm t
 
 This will execute a stack of unitary tests.
 
+### With Docker
+Build and start container with
+```
+docker-compose up -d
+```
+
+Then you will be able to execute commands like:
+```
+docker-compose exec nodejs npm start [unless_number]
+docker-compose exec nodejs npm test
+```
+
 
