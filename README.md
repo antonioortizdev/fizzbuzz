@@ -36,7 +36,7 @@ npm t
 
 This will execute a stack of unitary tests.
 
-### With Docker
+## With Docker
 Build and start container with
 ```
 docker-compose up -d
