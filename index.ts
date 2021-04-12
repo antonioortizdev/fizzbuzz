@@ -7,7 +7,9 @@ const print = (until: number) => {
 }
 
 const main = () => {
-    print(100);
+    let until = parseInt(process.argv[2]);
+    until = !isNaN(until) ? until : 100;
+    print(until);
 }
 
 main();
