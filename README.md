@@ -23,7 +23,7 @@ npm i -D
 ## Usage
 
 ```
-npm start {[until_number]}
+npm start [until_number]
 ```
 
 This will print all the numbers until the argument ```until_number```, or until 100 if not specified or ```until_number``` is not a number.
