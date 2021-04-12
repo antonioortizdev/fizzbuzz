@@ -1,6 +1,14 @@
 import fizzBuzz from "../src/fizzBuzz";
 
 describe("fizzBuzz", () => {
+    it("should say 0 when passing 0", () => {
+        expect(fizzBuzz(0)).toBe(0);
+    });
+    
+    it("should say 1 when passing 1", () => {
+        expect(fizzBuzz(1)).toBe(1);
+    }); 
+
     it('should say "fizz" when passing 3', () => {
         expect(fizzBuzz(3)).toBe("fizz");
     });
@@ -23,9 +31,5 @@ describe("fizzBuzz", () => {
 
     it('should say "fizzbuzz" when passing a multiple of 3 and 5', () => {
         expect(fizzBuzz(30)).toBe("fizzbuzz");
-    });
-
-    it("should say 0 when passing 0", () => {
-        expect(fizzBuzz(0)).toBe(0);
     });
 });
